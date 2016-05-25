@@ -64,12 +64,73 @@
 	height: 225px;
 	padding: 75px 0 75px 0;
 }
+/*
+#dogs {
+
+}*/
+#dogs {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	justify-content: space-around;
+	/*align-items: center;*/
+
+}
+
+.productContainer {
+	width: 33%;
+	margin: 40px auto 0 auto;
+	/*align-items: center;*/
+	border-color:;
+/*	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+*/
+}
+
+.productContainer > div {
+	padding-left: 25%
+	/*margin: 0 auto;*/
 
 
 
+}
 
+.dogname {
+	/*display: block;*/
+	font-weight: bold;
 
+}
 
+.dogpic img{
+	/*display: block;*/
+	max-width: 70%;
+	max-height: 70%;
+	
+}
+
+.dogdesc {
+	font-size: 90%
+	/*display: block;*/
+
+	
+}
+
+.dogsize {
+	font-style: italic;
+	font-size: 75%
+	/*display: block;*/
+
+	
+}
+
+.dogprice {
+	font-size: 90%
+	color: green;
+	/*display: block;*/
+}
 
 
 
@@ -90,6 +151,26 @@
 	text-align: center;
 }
 
+@media (max-width: 645px){
+	#dogs {
+		flex-direction: column;
+		margin: 0;
+		align-items: center;
+	}
 
+	.productContainer{
+		margin: 2rem auto;
+		width: 75%;
+
+
+	}
+
+	.dogpic {
+		max-height: 400px;
+		max-width: 400px;
+		margin: 0;
+	}
+
+}
 
 
