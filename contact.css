@@ -1,0 +1,133 @@
+
+header	{ 
+	font-size: 20px;
+	font-family: "futura", sans-serif;
+ }
+
+
+#wrapper {
+	font-family: "futura", sans-serif;
+	font-size: 18px;
+	background-color: rgba(0, 176, 240, 0.5);
+}
+
+
+
+.puppy-phone {
+	margin-left: 30%;
+	margin-top: 8%;
+	border-radius: 25px;
+}
+
+h2 { 
+	margin-top: 5%;
+	margin-left: 45%;
+ }
+
+
+fieldset { 
+    display: block;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 60%;
+    margin-bottom: 10%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: 2px solid;
+    border-color: black;	
+    background-color: #242143;
+    color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+
+.contact-info {
+	list-style: none;
+	padding: 15px;
+	margin-left: 15%;
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.map { 
+	margin-left: 30%;
+	margin-right: 40%;
+	margin top: 10%;
+	margin-bottom: 10%;
+ }
+
+.twitter {
+	margin-top: 10%;
+	margin-right: 0%;
+
+}
+
+#primary {
+		width: 50%;
+		float: left;
+	}
+
+#secondary {
+		width: 50%;
+		float: right;
+	}
+
+/*
+@media screen  and (min-width: 480px) {
+	#primary {
+		width: 50%;
+		float: left;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+}
+
+
+@media screen and (min-width: 660px) {
+	#primary {
+		width: 50%;
+		float: left;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
