@@ -1,0 +1,125 @@
+body
+ {
+ 	font-family: Futura, sans-serif;
+    margin: 3%;
+ 	padding: 3%;
+ 	box-sizing: border-box;
+    display: flex;
+   
+ }
+   
+body{
+    align-content: center;
+}
+
+ /*Nav Bar Styling*/
+.wrapper {
+ 		min-height: calc(100vh - 3em);
+ 	} 
+ 
+
+.navbar {
+ 	width: 100%;
+ 	padding-left: 1rem;
+ 	padding-right: 1rem;
+ 	border-bottom: 1px solid rgba(161, 163, 151, .5);
+ }
+ 
+ .navbar-list {
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-between;
+ }
+ 
+ .navbar-list ul {
+ 	align-self: center;
+ }
+ 
+ .logosmall {
+ 	height: 4rem;
+ }
+ 
+.employeesTitle{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+   }
+ 
+.entireCards{
+    background-color: #a1a397;
+    display: block;
+    margin: 15px;
+    padding: 10px; 
+    width: 20%;
+    text-align: center;
+    float: left;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    margin-top: auto;
+    margin-left: 10px;
+   
+    
+    
+}
+ 
+
+
+   
+
+
+
+
+
+.glamourShots{
+    width: 100%;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+  
+    
+}
+   
+    
+.whitneyText{
+    background-color: #a1a397;
+    display: inline-block;
+    font-size: auto;
+    }
+ 
+ .aboutUs{
+    display:block;
+    width: auto;
+    float: left 5px;
+    text-align: center;
+     
+    
+    
+    
+}
+ 
+ 
+ 
+ 
+ 
+ /*Footer*/
+ 
+ 
+ 
+ .footer {
+ 	width: 100%;
+ 	height: 3em;
+ 	background-color: #CFDAD1;
+ 	/*margin-top: 40px;*/
+ 	padding: 10px 0;
+ 	color: white;
+ 	text-align: center;
+    margin-top: 0px;
+ }
+ 
+h1{
+    background-color: white;
+    
+    
+}
